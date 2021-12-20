@@ -9,7 +9,7 @@ public class CollaboratorCallException extends RuntimeException {
 	}
 
 	public CollaboratorCallException(String message,
-			Throwable cause) {
+									 Throwable cause) {
 		super(message, cause);
 	}
 
@@ -21,5 +21,5 @@ public class CollaboratorCallException extends RuntimeException {
 		super(cause);
 	}
 
-	
+
 }
